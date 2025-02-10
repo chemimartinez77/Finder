@@ -9,7 +9,7 @@
 <body>
     <div id="game-container">
         <!-- Imagen de fondo de la localización -->
-        <div id="location-image"></div>
+        <div id="location-image" style="background: url('assets/images/park.png') no-repeat center center; background-size: cover;"></div>
 
         <!-- Caja de diálogo -->
         <div id="dialog-box">
@@ -26,9 +26,9 @@
     </div>
 
     <!-- Carga de los scripts en el orden correcto -->
-    <script src="js/characterManager.js"></script>
-    <script src="js/uiManager.js"></script>
-    <script src="js/storyManager.js"></script>
-    <script src="js/main.js"></script>
+    <script src="js/characterManager.js" type="module"></script>
+    <script src="js/uiManager.js" type="module"></script>
+    <script src="js/storyManager.js" type="module"></script>
+    <script src="js/main.js" type="module"></script>
 </body>
 </html>

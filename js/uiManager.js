@@ -1,3 +1,6 @@
+import CharacterManager from './characterManager.js';
+import StoryManager from './storyManager.js';
+
 const UIManager = {
     isZoomed: false,
 
@@ -129,3 +132,5 @@ const UIManager = {
         }, 3000);
     }
 };
+
+export default UIManager;

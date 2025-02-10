@@ -55,3 +55,5 @@ const CharacterManager = {
         return this.characters.find(character => character.name === name);
     }
 };
+
+export default CharacterManager;

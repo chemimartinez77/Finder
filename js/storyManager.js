@@ -1,10 +1,14 @@
-import emmaStory from "./stories/emmaStory.js";
-import marcoStory from "./stories/marcoStory.js";
-import sophiaStory from "./stories/sophiaStory.js";
-import laraStory from "./stories/laraStory.js";
-import camilaStory from "./stories/camilaStory.js";
-import isabelStory from "./stories/isabelStory.js";
-import claraStory from "./stories/claraStory.js";
+import emmaStory from "../stories/emmaStory.js";
+import marcoStory from "../stories/marcoStory.js";
+import sophiaStory from "../stories/sophiaStory.js";
+import laraStory from "../stories/laraStory.js";
+import camilaStory from "../stories/camilaStory.js";
+import isabelStory from "../stories/isabelStory.js";
+import claraStory from "../stories/claraStory.js";
+
+import UIManager from './uiManager.js';
+import CharacterManager from './characterManager.js';
+
 
 const StoryManager = {
     scenes: [

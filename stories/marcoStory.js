@@ -1,3 +1,5 @@
+import StoryManager from '../js/storyManager.js';
+
 const marcoStory = {
     characters: ["Marco"],
     dialogSequence: {

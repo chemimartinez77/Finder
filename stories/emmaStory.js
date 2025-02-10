@@ -1,3 +1,4 @@
+import StoryManager from '../js/storyManager.js';
 export default {
     characters: ["Emma"],
     dialogSequence: {

@@ -1,3 +1,6 @@
+import StoryManager from './storyManager.js';
+
+
 document.addEventListener('DOMContentLoaded', () => {
     startGame();
 });
